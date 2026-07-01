@@ -1,4 +1,4 @@
-# KotlinFalsh Anki Decks
+# KotlinFalsh Anki Cards
 
 This repository contains importable Anki flashcards for my LinkedIn **KotlinFlash series**.
 
@@ -11,7 +11,3 @@ Each file is a single flashcard in Anki-compatible comma-separated format.
 3. Open **AnkiDroid**
 4. Import -> Text file
 5. Select comma as separator
-
-## Purpose
-
-This repo is used to turn short technical insights from my LinkedIn posts into spaced-repetition flashcards.
