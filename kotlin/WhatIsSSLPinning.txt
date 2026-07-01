@@ -1,0 +1,17 @@
+What is SSL pinning?,
+Only allow access to certificated servers
+Prevents MITM attacks
+val client = HttpClient(OkHttp) {
+    engine {
+    // Configure the underlying OkHttp engine
+    // Now requests  will throw an exception if the server's certificate doesn't match the pin
+        config {
+            val pinner = CertificatePinner.Builder()
+                .add("yourdomain.com"."sha256/...your...hash...here...")
+                .build()
+            
+            certificatePinner(pinner)
+        }
+   }
+,
+Kotlin ktor security

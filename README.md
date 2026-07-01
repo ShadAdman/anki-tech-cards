@@ -10,6 +10,7 @@ Each file is a single flashcard in Anki-compatible comma-separated format.
 2. Download the `.txt` file
 3. Open **AnkiDroid**
 4. Import -> Text file
+5. Select comma as separator
 
 ## Purpose
 
